@@ -9,6 +9,7 @@ public class Main {
         String LastName = keyboard.nextLine();
         System.out.println("What is your house number? ");
         int HouseNumber = keyboard.nextInt();
+        keyboard.nextLine();
         System.out.println("What is your Street Name? ");
         String StreetName = keyboard.nextLine();
         System.out.println("What is your Street Type? ");
